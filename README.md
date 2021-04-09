@@ -11,6 +11,18 @@
 - The Bank Marketing dataset from UCI ML Repository was used to train the two models.
 - Tool: Azure ML Studio, Azure Python SDK, Jupyter Notebook
 
+### Methodology
+
+1. Connect to Udacity Resource Group & Workspace on the Azure Portal
+2. Create a compute cluster, if the compute cluser already exists, then use that one. Else create a new one with vm_size = `STANDARD_D2_V2` having `max_nodes = 4`
+3. Define Hyper-Parameter search space by RandomParameterSampling. Here we have considered two parameters - LR Coefficient and Max Iterations.
+4. Specify a Bandit Policy and also create a SKLearn estimator with entry script `train.py`
+5. Create a HyperDriveConfig using the estimator, hyperparameter sampler, and policy.
+6. Run the hyperdrive config experiment and submit it.
+7. Create an automl configuration model with primary metric as `accuracy` and `experiment_timeout_minutes=30`
+8. Run the AutoML Experiment and Analyze Results.
+9. Compare the accuracies of the two models and report your findings.
+                                     
 ### Results:
 
 1. VotingEnsemble is chosen as the best model by AutoML for the classification problem, achievening an accuracy of 0.914. 
