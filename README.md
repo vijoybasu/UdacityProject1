@@ -19,6 +19,8 @@
 3. Azure AutoML's VotingEnsemble model clearly outperforms the model achieved by using Hyperdrive.
 
 
+
+
 #### Screenshots as below
 
 ![image](https://user-images.githubusercontent.com/81923226/114142879-146bfa00-9931-11eb-8a86-01a957e212c5.png)
@@ -28,6 +30,8 @@
 ![image](https://user-images.githubusercontent.com/81923226/114142748-f0a8b400-9930-11eb-96b3-1b1f82c20f21.png)
 
 ![image](https://user-images.githubusercontent.com/81923226/114142777-f9998580-9930-11eb-8205-97fda4bc8d7f.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/81923226/114142804-0027fd00-9931-11eb-88f0-91689b53f284.png)
 
