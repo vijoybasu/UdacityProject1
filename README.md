@@ -13,6 +13,14 @@
 
 ### Results:
 
+1. VotingEnsemble is chosen as the best model by AutoML for the classification problem, achievening an accuracy of 0.914. 
+2. By using Azure's Hyperdrive service, we were able to tune two hyper-parameters (Max Iterators and LR Coefficient), after tuning these over various iterations. It was determined that even after the best chosen parameters. Logistic Regression was able to achieve an accuracy of 0.9096.
+
+3. Azure AutoML's VotingEnsemble model clearly outperforms the model achieved by using Hyperdrive.
+
+
+#### Screenshots as below
+
 ![image](https://user-images.githubusercontent.com/81923226/114142879-146bfa00-9931-11eb-8a86-01a957e212c5.png)
 
 ![image](https://user-images.githubusercontent.com/81923226/114142934-23eb4300-9931-11eb-98ec-139982eb4b81.png)
