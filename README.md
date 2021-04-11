@@ -16,6 +16,9 @@ The pipeline architecture consists of a python training script (train.py), a tab
 
 Further, alternatively we use AutoML to generate a model and make comparisons with the Hyperdrive Pipeline.
 
+### Dataset
+The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility, with the link provided in the train.py script.
+
 ### Methodology
 
 1. Connect to Udacity Resource Group & Workspace on the Azure Portal
