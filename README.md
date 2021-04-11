@@ -48,6 +48,13 @@ The early termination policy BanditPolicy for HyperDrive automatically terminate
 3. Azure AutoML's VotingEnsemble model clearly outperforms the model achieved by using Hyperdrive.
 
 
+## Areas of improvement for future experiments:
+
+Apply model explainability & interpretability of AutoML on more complex and larger datasets, to gain speed and valuable insights in feature engineering, which can in turn be used to explain workings of models to the business-minded individuals and also to refine complex model accuracy
+
+Experiment with different hyperparameter sampling methods like Bayesian sampling or GridSearchCV on the Scikit-learn LogicRegression model or other custom-coded machine learning models to understand more about Hyper-Parameter Tuning and obtain better results (may vary dataset to dataset)
+
+
 
 
 #### Screenshots as below
