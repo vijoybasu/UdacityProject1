@@ -11,6 +11,11 @@
 - The Bank Marketing dataset from UCI ML Repository was used to train the two models.
 - Tool: Azure ML Studio, Azure Python SDK, Jupyter Notebook
 
+### Pipeline Architecture
+The pipeline architecture consists of a python training script (train.py), a tabular dataset downloaded from UCI ML Repository (Bank Marketing Data Set), a Scikit-learn Logistic Regression Algorithm connected to the Azure HyperDrive, a hyperparameter tuning engine, to produce a HyperDrive classifier. The training run was orchestrated by a Jupyter Notebook hosted on a compute instance.
+
+Further, alternatively we use AutoML to generate a model and make comparisons with the Hyperdrive Pipeline.
+
 ### Methodology
 
 1. Connect to Udacity Resource Group & Workspace on the Azure Portal
