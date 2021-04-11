@@ -22,6 +22,13 @@
 7. Create an automl configuration model with primary metric as `accuracy` and `experiment_timeout_minutes=30`
 8. Run the AutoML Experiment and Analyze Results.
 9. Compare the accuracies of the two models and report your findings.
+
+
+### Benefits of the parameter sampler chosen
+The random parameter sampler for HyperDrive supports discrete and continuous hyperparameters, as well as early termination of low-performance runs. It is simple to use, eliminates bias and increases the accuracy of the model.
+
+### Benefits of the early stopping policy chosen
+The early termination policy BanditPolicy for HyperDrive automatically terminates poorly performing runs and improves computational efficiency. It is based on slack factor/slack amount and evaluation interval and cancels runs where the primary metric is not within the specified slack factor/slack amount compared to the best performing run.
                                      
 ### Results:
 
